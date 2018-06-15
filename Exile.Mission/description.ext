@@ -1,8 +1,70 @@
-
-class CfgSounds
-{
-#include "sound\sound_farty\sound.hpp"
-#include "sound\sound_screamer\sound.hpp"
-#include "sound\sound_sparky\sound.hpp"
-#include "sound\sound_strigoi\sound.hpp"
+class CfgSounds{
+class sfaraie_08{name = "sfaraie_08";sound[] = {"\sound\sound_farty\sfaraie_08.ogg", db+5, 1};titles[] = {};};
+class sfaraie_09{name = "sfaraie_09";sound[] = {"\sound\sound_farty\sfaraie_09.ogg", db+5, 1};titles[] = {};};
+class acid_burn_1{name = "acid_burn_1";sound[] = {"\sound\sound_farty\acid_burn_1.ogg", db+5, 1};titles[] = {};};
+class acid_burn_2{name = "acid_burn_2";sound[] = {"\sound\sound_farty\acid_burn_2.ogg", db+5, 1};titles[] = {};};
+class acid_burn_3{name = "acid_burn_3";sound[] = {"\sound\sound_farty\acid_burn_3.ogg", db+5, 1};titles[] = {};};
+class acid_burn_4{name = "acid_burn_4";sound[] = {"\sound\sound_farty\acid_burn_4.ogg", db+5, 1};titles[] = {};};
+class toxic_field{name = "toxic_field";sound[] = {"\sound\sound_farty\toxic_field.ogg", 0.1, 1};titles[] = {};};
+class breath_toxic{name = "breath_toxic";sound[] = {"\sound\sound_farty\breath_toxic.ogg", 0.6, 1.0};titles[] = {0,""};};
+class dezechipare_toxic{name = "dezechipare_toxic";sound[] = {"\sound\sound_farty\dezechipare_toxic.ogg", 1, 1.0};titles[] = {0,""};};
+class 01_breat_toxic{name = "01_breat_toxic";sound[] = {"\sound\sound_farty\01_breat_toxic.ogg", 1, 1.0};titles[] = {0,""};};
+class 02_breat_toxic{name = "02_breat_toxic";sound[] = {"\sound\sound_farty\02_breat_toxic.ogg", 1, 1.0};titles[] = {0,""};};
+class 03_breat_toxic{name = "03_breat_toxic";sound[] = {"\sound\sound_farty\03_breat_toxic.ogg", 1, 1.0};titles[] = {0,""};};
+class 04_breat_toxic{name = "04_breat_toxic";sound[] = {"\sound\sound_farty\04_breat_toxic.ogg", 1, 1.0};titles[] = {0,""};};
+class NoSound {name = "NoSound";sound[] = {"", 0, 1};titles[] = {0, ""};};
+class puls_1{name = "puls_1";sound[] = {"\sound\sound_farty\puls_1.ogg", db+1, 1};titles[] = {1, ""};};
+class echipare_toxic{name = "echipare_toxic";sound[] = {"\sound\sound_farty\echipare_toxic.ogg", 1, 1.0};titles[] = {0,""};};
+class voce_fart{name = "voce_fart";sound[] = {"\sound\sound_farty\voce_fart.ogg", 1, 1.0};titles[] = {0,""};};
+class 01_anomaly_move{name = "01_anomaly_move";sound[] = {"\sound\sound_farty\01_anomaly_move.ogg", 1, 1.0};titles[] = {0,""};};
+class 02_anomaly_move{name = "02_anomaly_move";sound[] = {"\sound\sound_farty\02_anomaly_move.ogg", 1, 1.0};titles[] = {0,""};};
+class 01_fart_attack{name = "01_fart_attack";sound[] = {"\sound\sound_farty\01_fart_attack.ogg", 1, 1.0};titles[] = {0,""};};
+class 02_fart_attack{name = "02_fart_attack";sound[] = {"\sound\sound_farty\02_fart_attack.ogg", 1, 1.0};titles[] = {0,""};};
+class 01_strig_fart{name = "01_strig_fart";sound[] = {"\sound\sound_farty\01_strig_fart.ogg", 1, 1.0};titles[] = {0,""};};
+class sfaraie_01{name = "sfaraie_01";sound[] = {"\sound\sound_farty\sfaraie_01.ogg", db+5, 1.0};titles[] = {0,""};};
+class farty_mort{name = "farty_mort";sound[] = {"\sound\sound_farty\farty_mort.ogg", db+20, 1.0};titles[] = {0,""};};
+class tuse_1{name = "tuse_1";sound[] = {"\sound\sound_farty\tuse_1.ogg", db+5, 1.0};titles[] = {0,""};};
+class tuse_2{name = "tuse_2";sound[] = {"\sound\sound_farty\tuse_2.ogg", db+5, 1.0};titles[] = {0,""};};
+class tuse_3{name = "tuse_3";sound[] = {"\sound\sound_farty\tuse_3.ogg", db+5, 1.0};titles[] = {0,""};};
+class miscare_screamer{name = "miscare_screamer";sound[] = {"\sound\sound_screamer\miscare_screamer.ogg", db+20, 1};titles[] = {};};
+class scream{name = "scream";sound[] = {"\sound\sound_screamer\scream.ogg", db+20, 1};titles[] = {};};
+class ecou{name = "ecou";sound[] = {"\sound\sound_screamer\ecou.ogg", db+20, 1};titles[] = {};};
+class stones_scream{name = "stones_scream";sound[] = {"\sound\sound_screamer\stones_scream.ogg", db+20, 1};titles[] = {};};
+class teleport_screamer{name = "teleport_screamer";sound[] = {"\sound\sound_screamer\teleport_screamer.ogg", db+10, 1};titles[] = {};};
+class earthquakes{name = "earthquakes";sound[] = {"\sound\sound_screamer\earthquakes.ogg", 1, 1};titles[] = {};};
+class magnetic_pulse{name = "magnetic_pulse";sound[] = {"\sound\sound_sparky\magnetic_pulse.ogg", 1, 1};titles[] = {1, ""};};
+class sparks_1{name = "sparks_1";sound[] = {"\sound\sound_sparky\sparks_1.ogg", db+10, 1};titles[] = {1, ""};};
+class sparks_2{name = "sparks_2";sound[] = {"\sound\sound_sparky\sparks_2.ogg", db+10, 1};titles[] = {1, ""};};
+class sparks_3{name = "sparks_3";sound[] = {"\sound\sound_sparky\sparks_3.ogg", db+10, 1};titles[] = {1, ""};};
+class sparks_4{name = "sparks_4";sound[] = {"\sound\sound_sparky\sparks_4.ogg", 1, 1};titles[] = {1, ""};};
+class sparks_5{name = "sparks_5";sound[] = {"\sound\sound_sparky\sparks_5.ogg", db+10, 1};titles[] = {1, ""};};
+class after_01{name = "after_01";sound[] = {"\sound\sound_sparky\after_01.ogg", 0.5, 1};titles[] = {1, ""};};
+class after_02{name = "after_02";sound[] = {"\sound\sound_sparky\after_02.ogg", 0.7, 1};titles[] = {1, ""};};
+class 01_atak{name = "01_atak";sound[] = {"\sound\sound_sparky\01_atak.ogg", db+10, 1};titles[] = {1, ""};};
+class 02_atak{name = "02_atak";sound[] = {"\sound\sound_sparky\02_atak.ogg", db+10, 1};titles[] = {1, ""};};
+class 03_atak{name = "03_atak";sound[] = {"\sound\sound_sparky\03_atak.ogg", db+10, 1};titles[] = {1, ""};};
+class 04_atak{name = "04_atak";sound[] = {"\sound\sound_sparky\04_atak.ogg", db+10, 1};titles[] = {1, ""};};
+class 05_atak{name = "05_atak";sound[] = {"\sound\sound_sparky\05_atak.ogg", db+10, 1};titles[] = {1, ""};};
+class 06_atak{name = "06_atak";sound[] = {"\sound\sound_sparky\06_atak.ogg", db+10, 1};titles[] = {1, ""};};
+class casp_voice{name = "casp_voice";sound[] = {"\sound\sound_strigoi\casp_voice.ogg", db+5, 1};titles[] = {};};
+class 01_salt{name = "01_salt";sound[] = {"\sound\sound_strigoi\01_salt.ogg", db+10, 1};titles[] = {};};
+class 02_salt{name = "2";sound[] = {"\sound\sound_strigoi\02_salt.ogg", db+10, 1};titles[] = {};};
+class 03_salt{name = "03_salt";sound[] = {"\sound\sound_strigoi\03_salt.ogg", db+10, 1};titles[] = {};};
+class 01_tip_casp{name = "01_tip_casp";sound[] = {"\sound\sound_strigoi\01_tip_casp.ogg", db+5, 1};titles[] = {};};
+class 02_tip_casp{name = "02_tip_casp";sound[] = {"\sound\sound_strigoi\02_tip_casp.ogg", 0.8, 1};titles[] = {};};
+class 03_tip_casp{name = "03_tip_casp";sound[] = {"\sound\sound_strigoi\03_tip_casp.ogg", db+5, 1};titles[] = {};};
+class 04_tip_casp{name = "04_tip_casp";sound[] = {"\sound\sound_strigoi\04_tip_casp.ogg", db+5, 1};titles[] = {};};
+class 05_tip_casp{name = "05_tip_casp";sound[] = {"\sound\sound_strigoi\05_tip_casp.ogg", db+5, 1};titles[] = {};};
+class 06_tip_casp{name = "06_tip_casp";sound[] = {"\sound\sound_strigoi\06_tip_casp.ogg", db+5, 1};titles[] = {};};
+class 07_tip_casp{name = "07_tip_casp";sound[] = {"\sound\sound_strigoi\07_tip_casp.ogg", db+5, 1};titles[] = {};};
+class 01_tease{name = "01_tease";sound[] = {"\sound\sound_strigoi\01_tease.ogg", 1, 1};titles[] = {};};
+class 02_tease{name = "02_tease";sound[] = {"\sound\sound_strigoi\02_tease.ogg", 0.9, 1};titles[] = {};};
+class 03_tease{name = "03_tease";sound[] = {"\sound\sound_strigoi\03_tease.ogg", 1, 1};titles[] = {};};
+class 04_tease{name = "04_tease";sound[] = {"\sound\sound_strigoi\04_tease.ogg", 1, 1};titles[] = {};};
+class 01_atk_bg{name = "01_atk_bg";sound[] = {"\sound\sound_strigoi\01_atk_bg.ogg", 1, 1};titles[] = {};};
+class 02_atk{name = "02_atk";sound[] = {"\sound\sound_strigoi\02_atk.ogg", 1, 1};titles[] = {};};
+class 03_atk{name = "03_atk";sound[] = {"\sound\sound_strigoi\03_atk.ogg", 1, 1};titles[] = {};};
+class 04_atk{name = "04_atk";sound[] = {"\sound\sound_strigoi\04_atk.ogg", 1, 1};titles[] = {};};
+class tiuit{name = "tiuit";sound[] = {"\sound\sound_strigoi\tiuit.ogg", 0.2, 1.0};titles[] = {0, ""};};
+class puls{name = "puls";sound[] = {"\sound\sound_strigoi\puls.ogg", db+10, 1};titles[] = {};};
 };
